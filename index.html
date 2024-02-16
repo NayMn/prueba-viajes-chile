@@ -23,16 +23,19 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-lightblue">
+    <nav class="navbar navbar-expand-lg bg-body-lightblue sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="assets/img/viajes.svg" width="80px" alt="nav-logo">
                 <p class="text-white my-auto">Viajes Chile</p>
+
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
@@ -123,8 +126,9 @@
                         <img src="assets/img/card1.jpg" class="card-img-top" height="150px" alt="foto-card1">
                         <div class="card-body">
                             <h3>Lorem, ipsum dolor.</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="muted">Lorem ipsum dolor sit.
+                                <a href="#" data-bs-toggle="tooltip" data-bs-title="info">Lorem, ipsum.</a>
+                                sit amet consectetur adipisicing elit. Nulla, saepe.
                         </div>
                     </div>
                 </article>
@@ -134,8 +138,9 @@
                         <img src="assets/img/card2.jpg" class="card-img-top" height="145px" alt="foto-card2">
                         <div class="card-body">
                             <h3>Lorem, ipsum dolor.</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="muted">Lorem ipsum dolor sit.
+                                <a href="#" data-bs-toggle="tooltip" data-bs-title="info">Lorem, ipsum.</a>
+                                sit amet consectetur adipisicing elit. Nulla, saepe.
                         </div>
                     </div>
                 </article>
@@ -145,8 +150,9 @@
                         <img src="assets/img/card3.jpg" class="card-img-top" height="150px" alt="foto-card3">
                         <div class="card-body">
                             <h3>Lorem, ipsum dolor.</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="muted">Lorem ipsum dolor sit.
+                                <a href="#" data-bs-toggle="tooltip" data-bs-title="info">Lorem, ipsum.</a>
+                                sit amet consectetur adipisicing elit. Nulla, saepe.
                         </div>
                     </div>
                 </article>
@@ -156,8 +162,12 @@
                         <img src="assets/img/card4.jpg" class="card-img-top" height="150px" alt="foto-card3">
                         <div class="card-body">
                             <h3>Lorem, ipsum dolor.</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+
+
+                            <p class="muted">Lorem ipsum dolor sit.
+                                <a href="#" data-bs-toggle="tooltip" data-bs-title="info">Lorem, ipsum.</a>
+                                sit amet consectetur adipisicing elit. Nulla, saepe.
+
                         </div>
                     </div>
                 </article>
@@ -185,7 +195,10 @@
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
 
-            <button type="button" class="btn bg-body-lightblue text-white my-3">Enviar</button>
+            <button type="button" class="btn btn-md bg-body-lightblue text-white my-3" data-bs-toggle="popover"
+                data-bs-title="titulo"
+                data-bs-content="And here's some amazing content. It's very engaging. Right?">Enviar</button>
+
         </section>
     </main>
 
@@ -224,10 +237,12 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
-    <!--bootstrap---->
+    <!--javascript---->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="assets/js/style.js"></script>
 </body>
 
 </html>
