@@ -8,3 +8,11 @@ body {
     font-variation-settings:
         "wdth" 100;
 }
+
+.bg-body-lightblue {
+    background-color: rgb(30, 140, 148);
+}
+
+.navbar-brand {
+    display: inline-flex;
+}
