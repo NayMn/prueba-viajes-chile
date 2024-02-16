@@ -16,3 +16,15 @@ body {
 .navbar-brand {
     display: inline-flex;
 }
+
+.icon-card {
+    padding-left: 45%;
+    padding-right: 45%;
+}
+
+.card-body {
+    background-color: rgb(30, 140, 148);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
